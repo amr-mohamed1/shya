@@ -17,6 +17,9 @@
     <!-- fonts -->
     <link href="./fonts/Montserrat-Arabic Regular 400.otf" rel="stylesheet">
     <link href="./fonts/Montserrat-Arabic Bold 700.otf" rel="stylesheet">
+    <link href="./fonts/Montserrat-Arabic Black 900.otf" rel="stylesheet">
+    <link href="./fonts/Montserrat-Arabic SemiBold 600.otf" rel="stylesheet">
+    <link href="./fonts/Montserrat-Arabic Medium 500.otf" rel="stylesheet">
 
 
         <link rel="stylesheet" href="css/semantic.min.css">
@@ -29,6 +32,14 @@
 </head>
 <body>
 <p>الرئيسية</p>
+
+<form action="/file-upload" class="dropzone">
+    <div class="fallback"> <input name="file" type="file" multiple /> </div>
+    <div class="dz-message" data-dz-message>
+        <div class="text-lg font-medium">Drop files here or click to upload.</div>
+        <div class="text-slate-500"> This is just a demo dropzone. Selected files are <span class="font-medium">not</span> actually uploaded. </div>
+    </div>
+</form>
 <nav id="navbar-clone" class="navbar">
     <div class="container">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
